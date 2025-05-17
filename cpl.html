@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stay.css">
+</head>
+<script src="index.js"></script>
+
+<body class="light-theme">
+    <button class="theme-button" onclick="toggleTheme()">🌗</button>
+
+    <button class="top-left-button"> <a href="index.html">назад</a></button>
+
+
+    <header>
+        <p class="px">c++</p>
+    </header>
+
+    <h1 class="pp">коды</h1>
+    <div class="loh">
+
+        <img class="image"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASsAAACoCAMAAACPKThEAAAAyVBMVEU3Y5kaTYl7pNNlmtL///8ARIIAWZwXS4gwXZR/qNc5ZZpontY0YJc9aqAtYJoyX5YjU40qWJFTkM5ZgrRwmclFb6MAOn1cldAAT5d2n88ALnddhrdmj78AVZlJc6dbhLUAKXUAPn1SgrlPf7VglMtljr+pxOOStd3l7fa70Onw9foAS5UARZPU4fF4l76GoMPQ1+FwhqmLnLgANXuerMPd5/RCe7chZKU0ca+LsNuux+WwwNe+0uqRqchwkbqhttC+yNdWcpytucyTzWNOAAANbElEQVR4nN2dbWPaOAzHKQUSktAAW6HQwqDt2q5d18fdtrvrttv3/1CXAAE7sS3JDwnw35tugyT+VZJl2Y5rB0bykj/dnl/bTsWeWetyqhl810s5RVUDUSmyximVASuvm9hTUDUOpQKrsHRZ7QCoVFZh6bHyuvEOgEoVRPZilg4rr7vVQSonewFeh1VcdfNp8m3BIrPyelW3nayeJVhkVjtmVKmCbjWsdiSk51QFq27VjdaVqDGeR/RNEqudRRUIOsMkPyT6JoVVdyf9b6levjFpFxW4YuXtrFUtlLMhb9FHdUleSLCrqltrqFxr0toIsYNEs/J2KVcXKZ+SRkFQcEx9VlxHsXspaE55I6InqApW3SiIN3+puqkWRIaDZuWlaWfW1+68B9bEiYMlVssMYXX5nffAhQzHOgrDTK+eVX+qbqUlOWOVhqjVb2I/zKoWmJVn1KizS1fdSGuiJZ8kVivtiVmlMkCFY1V1Ay3KpO6HYLXjA8Gc9FGhWO1BbrWRwbwOhnPVzbMr/SQLwaq3w2UrkRyy2i8XNEmyEJT3zKyo1VAKqz1KrlbSHUODrLwdnBCEpJm9w3ZVdcNcyBGrvUpEMxGLx1hW+xeuUrlh5e9bN5hKL2+AWO1bdpVJJ3sH7arqRjmSTt4AsdrL0J5KI28AWO1XPYaVRr0Bsqvyu8HI7xx3Yvdhkp43bBurKDoPU50HzmlZZ2UnZYh8H9f0eHq4VHh4gbWtKPa1zJBsWFC8sjEajKLT0egUcaW4cxkebjRF7fPxL0b191Od57TNyoInxNN2u15vj6BLRQFHKrGtyw6MwD9LLl5vf6Dvnwp8y6zIT1BQfJE2JmnOe2XDo/icJ7WgdV4DCEfvVlc/1YC1baziVWOS5qhCnz8tgMrClvLyfj27+kc6LOJIxzWrzKrS1hzLP9W5LBpV5ojKsBW1DWBZXi9q2A1urCppjMxCoprA/ZBha21XyfXPyLBoIx23rDhUH8UtjuILBahV2IpkYSs6bZvAIg2hnbLyGVR1ST8oCVSFsCXDEL9nfx1UWCTDcsmKQ1UXXkkRqPKOeCxxxGhUN4BFMSyHrGIelcCsgECVpxVInJiFRXVDimFB/aA+Kx9EFV+EeFQprXPxWCYaGcQsgmE5YwWiio8PSaQWEo9luJhFhEWozbjKryBU6ECVMy1x/hAbWBbesByNBwFUaeVFymOYSk5LOOwxgIWPWG7qDAAq/0LifsNh/7B9fXV1df0j7MuAhaJqjb4b4jflgPUr+6ik7jc8vLq/bax1f5XwEuMShC39PAttWC5qff4HVV4lqiek6v+4b+T19VpMK7y0aVlYw3JQQ1anoBJU/fZNgVSq2+u+c1jYcoP9eRy1VdWmIlTDYdGm1rYVCkwrPOwU76zthjhU9ucHgYFNfClC1ZaSSlUwrTD8a9IS3FsXFrLybnveOWdVRU8RmFX/Somq0fjEwwrPW5NWS5TNaMJC1rHA9QxGqIof6BRZ9f8GUCVdIgMrvPyWkGq1joT314OF2yFgd+0HiErAagij4mB9X5CSsNKEhRvoWF1TxKMSfqTAaniNQJW44TLAp4GqpWKl6YaotMHmWjX/lC3tiT9TYDVCoWo0fiSwwn5rjUrGSs+yUGmDxTWQGFQFVv1bGNNSwyxQAax4WNipMCt2he4IUajyrITB6vZGBPD++4RFJWfFuyESFia6w2u2kcEdh6pgVwVOn9r9VPW/c7z+4UmpWOlYFia6w3aFC+5IVDlWw39zqK7W479hnw36j0d3rRaalQ4sGBXCrlDBHYsqx6qfMypuODMcfs3+/ezzJI9KyYp3Q9RaB0Tubmc/DhoVz2rIJ+w3+YFffzlKfBOQAljxloWBhXBCxD4vm6h4Vv2vHKviGLl/02j8npwISEGsyLAQ4xyEXYEBi0el7gt4u+JQtUX1hK/TQqDCseJhvYNhwU6IsCsow6Kg4ljxKft9sVAVHn6/E7kfihXVsuDyqPkeXhIqntUnzqyKVrUZ0LQmk3XOsPoJZJWzLHDmwIJdAfMTNFQ8K7bAd1soUp0zA5rJQ6PxZfHXSSfJtU5QrIiwwBXvGFaqrCG6IKHiWPXZsvG/fLTiBzSTky8Jq9QfJyffElbpTwhWJFjwm8NM32UR0FDxrLgslGf1nYtTP89+NRq/zn62Jmc/E2q/T38eTTCscrDUzwdmDRhWCidklz9hUMlZXTOsmMrLwqqOsg+1PmcjnzMcq1rMLAxRL1iFAxaKlbwnjD5u1iAi+mUUq/Dc81q2WNX8EZoVVMTCzWHIWU0ZGweWwapZZT4YXvbmzWaTzw/eHv5JotTDWxLjH96S0eHDWwfJiul6gIXQcIaFYyVPR/33dRIsILaHh51BcyHOtE7uFrH9JIvtn08mqNgeBcw6B/WAArHeHcdKlY7WSbCUOUMY/jWfNzOxtE6SnOGBnDNEx8zDiWvarKBsFMdKUcSKAhYWmMTIc9F6Gqg2pFKxEf770bfVT53lTzCr6Bgs//Oyw0qRYtFgqcY4PZ7UgtbdJltv8T+BrMio7LBSplgkWHz9imXV8Iuomt7jN3GVAWbFo8JssYNKDVhWytydAIuvyXDrPW7HBVSzxyQFvdOqydBRWWOlHEATYKlqfY+zPKo/C4ZfNGp9GqjssVK+BQsPK1dvb/CwBgOG1GD8e/XvwiKWkpUOKnus1JWZHCx5Bg/MTTzNBquoNZj9x8zkCIqjKlY8qg5yKsoeK/UcBRZWbs4rzLFq3Dx3Z+OX8cx7fuT/4y0PS8FKD5VFVsAcBRIWzyo8/5WHlcSnx8dHwWTq7zssK3bgVW+jUVnLGQ7AlQ04WCyr8PBoMEbP0Sd5Ko6VNiqLrKDZehQshlU4TQY08wCJ6mmQG/bIWOmjiqH2E1hBkxQYWGtW4XlzEcVfnlGo/ozzwx4JKx7VMWX5mJ06w1Lg0gYErBWr8LKbZenjPwhUTOo1UbIyQAUW3G2fJQTBWrDaVF42GScW1doRhaz0HbBmpy66loeYvoVghWmJeM4N/WavAKrfuYR+QUvEwcSq4PVqxJdfwHcEYMWXhcpL4oZPSlTP+bHPwhEF945NUFmZ82LkYY6pUsOaCiovzYH3KCV1U3spfqHZPCo+iRkq+OWQRLtCeCEPqzg37olaPp89iROt2+eZgG0i66jg5bX0F9AQYRVXihVccGla46evBVI3zy8D0YebzeJNDVFZWVPEC+WFgRJW0BM3fzDrvbKu+PgazCSkBEUPQ1SYXYT081IxXqiGldi7GMF8MB7Xnp5fX1+fn4KX8UDsfXNR6mKIys7a2iIs1L1Hali1AzGHhMR8kGou/X8vFli2qVWh9lvqvMHVBqzAl7CAJJyqNLUq5IyyBivcVgoIlixsKdUNqkOld244bnk95IZJPJU5mlhziUWXhErvPHrkRjkQVtJR42mJA1UBFXEMSEClxwq78YSFJV6wSQhbsskRU1QRvtF6rJA7mlhY4tkdZNgS5gnLpho6IOE9dJqssKfSs7AEu7mXAsPW/ECOoGNmVZTXIuueFoN9IQi7rE7aJUTSbGspxQr7+L0JKrz/mbBC7/8aIQxLHbZ6wjwhay1jVmRUxIPQDM4Cwz3P5k1e7amiLYFs2ANExs3aXrJVRdTXkhudm4Z7pGxpnfL9ojXhsCcJVMCX/LYuKvrpeiaskJ3han+a7D2QayWDsjwteO9i9t5aqgNC81u2WR1g6jO1xatAEkGoaoVqjTJQrRu9uPiI9gpzsvuZs8JmDlH07oPsNY45rcMWFKg2F6+9+4B7I/damodbmh3jixwZprTQDVmErbkHBSq9iye2q3mQEIUVdzg9HRZFvu/XnJ3KQ30ROZmVd9BLfne+wMtdHI0WYOKU3pVjk0OLkevbl08vOq5INvrfRumFdCKr9d1EI81dOZnJkBR5n5dwuoMQhitUVxhwbbNiEnTxnpXqAKDVMyZFPwtbPOVYGQKc4C2nJbLablh2SOF8kGEl3TdWHQlIQEJF8E1UbGfuLO1LKmOhljqh8rxuIqusNmNkxQqJKolIpSbVXXXwyFwe1Q966zkU5aW2TAHU+a2z6CBAjaaRY5xuhBh1VkqmKHBLLivMggbs2Nk7wCy62SJBWXq+kIGY+zKryRSutiUK4BJVvvSGWIBll9W2DHcQwbr4pmbb60VBbQGsADFBKno9B9g226yqrzok6TIiTguq35bXbCPkovhHEMaoJE9p5z1FJFULCzmXtSWsKoWFnqERzDxWwcrNhAVCAeFcIFG8gr7jglVVsChzyYJpYPA7TlhVAgs3pls/YaG/tvHOTC1VAIs481AwLPgrjlihp+/toaI+Ib/+NECgdsWqZFgRJv/MPyALC4PaGavcs7gV7Tzd7AG70WopQIDrFdyxKtGyiGdab56w6ychPu4hQ51DVqXB0lwitHxG8ZoWoVyyKscNabmCiZyyKgUWuQPUlltWJcAqD5VrVs5hlYjKOSvHsOhplYGcs9I57nE7UZXASuO8x+1EVQor7Dp4MqqSVc4NnVhWKU/OqqQ7OoBVzoOzKuuWtmHRdv7ZUWm/HruwqkBVHiubix2CSlCVyMqzB0tnQ5sF/Q9nWjmWxETJ9wAAAABJRU5ErkJggg=="
+            alt="">
+        <div class="image-html">
+            <p class="p">C++—компилируемый статически типизированный язык программирования общего назначения. 12
+                Поддерживает разные парадигмы программирования, сочетает свойства как высокоуровневых, так и
+                низкоуровневых языков. </p>
+
+        </div>
+        <ul>
+            <li class="pae">%d,%i-Десятичное знаковое числo.</LI>
+            <li class="pae">%o-Восьмеричное без знаковое число.</li>
+            <li class="pae">%u-Десятичное без знаковое число</li>
+            <li class="pae">%f,%F-Числа с плавающей запятой.</li>
+            <li class="pae">%e,%E-Числа с плавающей запятой в экспоненциальной форме записи (0.1e+13). e- символ «e» в
+                нижнем регистре, E — символ «E» в верхнем регистре.</li>
+            <li class="pae">%p-Вывод указателя.</li>
+            <li class="pae">%g, %G- Числа с плавающей запятой.</li>
+            <li class="pae">article:-Раздел контента, который образует независимую часть документа или сайта, например,
+                статья в
+                журнале,
+                запись в блоге, комментарий.</li>
+        </ul>
+    </div>
+    <footer class="f">
+        <h1 class="pp">определение</h1>
+
+
+    </footer>
+
+
+</body>
+
+</html>
