@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stay.css">
+ 
+
+</head>
+<script src="index.js"></script>
+<body class="light-theme" >
+    <button class="theme-button" onclick="toggleTheme()">🌗</button>
+    <button class="top-left-button"> <a href="index.html">назад</a></button>
+    <header>
+        <p class="px">html</p>
+    </header>
+    <img class="image"
+        src="data:image/png;base64,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">
+    <h1 class="pp">ТЕГИ</h1>
+    <div class="loh">
+        <ul>
+            <li class="pae"></LI>
+            <li class="pae"></li>
+            <li class="pae">
+            </li>
+            <li class="pae">
+            <li class="pae">abbr: Определяет текст как аббревиатуру или акроним. Поясняющий текст задаётся с помощью
+                атрибута title.
+            </li>
+            <li class="pae"> address:Задает контактные данные автора/владельца документа или статьи. Отображается в
+                браузереa
+            <li class="pae">area:Представляет собой гиперссылку с текстом, соответствующей определенной области на
+                карте-изображении
+                или
+                активную область внутри карты-изображения. Всегда вложен внутрь элемента map </li>
+            <li class="pae">article:Раздел контента, который образует независимую часть документа или сайта, например,
+                статья в
+                журнале,
+                запись в блоге, комментарий.</li>
+        </ul>
+    </div>
+    <footer class="f">
+        <h1 class="pp">определение</h1>
+        <p class="p">Java — это объектно-ориентированный язык программирования, разработанный компанией Sun Microsystems
+            (позже приобретённой Oracle) в середине 1990-х годов. Он предназначен для создания независимых от платформы
+            приложений, что означает, что код, написанный на Java, может работать на различных операционных системах, не
+            требуя изменений, благодаря виртуальной машине Java (JVM).</p>
+
+        <p></p>
+    </footer>
+
+
+</body>
+
+</html>
